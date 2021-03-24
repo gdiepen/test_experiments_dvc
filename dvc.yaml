@@ -4,6 +4,8 @@ stages:
     deps:
     - my_script.py
     - y.txt
+    params:
+    - settings.x
     metrics:
     - metrics.json:
         cache: false

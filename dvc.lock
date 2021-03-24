@@ -9,6 +9,9 @@ stages:
     - path: y.txt
       md5: dbbf8220893d497d403bb9cdf49db7a4
       size: 3
+    params:
+      params.yaml:
+        settings.x: 15
     outs:
     - path: metrics.json
       md5: 9292fa5c02331f2e93115d932362230e
