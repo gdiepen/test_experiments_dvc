@@ -1,0 +1,9 @@
+stages:
+  test_stage:
+    cmd: python ./my_script.py
+    deps:
+    - my_script.py
+    - y.txt
+    metrics:
+    - metrics.json:
+        cache: false

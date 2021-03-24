@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  test_stage:
+    cmd: python ./my_script.py
+    deps:
+    - path: my_script.py
+      md5: 2e200b553899c6a2b5666369a0be9c5b
+      size: 256
+    - path: y.txt
+      md5: dbbf8220893d497d403bb9cdf49db7a4
+      size: 3
+    outs:
+    - path: metrics.json
+      md5: 9292fa5c02331f2e93115d932362230e
+      size: 18
